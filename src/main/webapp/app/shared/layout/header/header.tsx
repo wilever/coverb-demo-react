@@ -11,6 +11,9 @@ import LoadingBar from 'react-redux-loading-bar';
 import { Home, Brand } from './header-components';
 import { AdminMenu, EntitiesMenu, AccountMenu, LocaleMenu } from './menus';
 
+import { Default } from 'app/modules/default/default.item';
+import { CoverMenu } from 'app/cover/cover.menu';
+
 export interface IHeaderProps {
   isAuthenticated: boolean;
   isAdmin: boolean;
@@ -64,6 +67,10 @@ export default class Header extends React.Component<IHeaderProps, IHeaderState> 
           <Collapse isOpen={this.state.menuOpen} navbar>
             <Nav id="header-tabs" className="ml-auto" navbar>
               <Home />
+              <Default />
+              {/* Default Nav-bar item*/}
+              <CoverMenu />
+              {/* Default Nav-bar menu*/}
               {isAuthenticated && <EntitiesMenu />}
               {isAuthenticated && isAdmin && <AdminMenu showSwagger={isSwaggerEnabled} showDatabase={!isInProduction} />}
               <LocaleMenu currentLocale={currentLocale} onClick={this.handleLocaleChange} />
