@@ -5,6 +5,7 @@ import { Switch } from 'react-router-dom';
 import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 
 import { Default } from 'app/cover/default/default';
+import { Resume } from 'app/cover/resume/resume';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (
@@ -12,6 +13,7 @@ const Routes = ({ match }) => (
     <Switch>
       {/* prettier-ignore */}
       <ErrorBoundaryRoute path={`${match.url}/default`} component={Default} />
+      <ErrorBoundaryRoute path={`${match.url}/resume`} component={Resume} />
       {/* jhipster-needle-add-route-path - JHipster will routes here */}
     </Switch>
   </div>

@@ -1,4 +1,4 @@
-/* style.scss */
+/* style.css */
 
 .jumbotron {
   background: #3e8acc;
@@ -34,22 +34,21 @@
   margin: 2% auto;
 }
 
-.rrss .icon {
-  font-size: 30px;
-  margin: 0% 2%;
-}
-
 /* Images*/
 
 #resume {
-  background-image: url('../../../static/images/resume.png');
+  background-image: url('/content/images/resume.png');
+
   width: 100%;
   height: 250px;
+  /*
+  width: 100%;
+  height: 250px;*/
   background-size: contain;
 }
 
 #company {
-  background-image: url('../../../static/images/company.png');
+  background-image: url('/content/images/company.png');
   width: 100%;
   height: 250px;
   background-size: contain;
