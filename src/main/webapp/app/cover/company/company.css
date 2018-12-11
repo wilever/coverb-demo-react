@@ -30,9 +30,8 @@ content {
   height: 100%;
 }
 
-.principal {
-  padding: 0%;
-  margin: auto 2%;
+div.container-fluid {
+  padding: auto 0%;
 }
 
 footer {

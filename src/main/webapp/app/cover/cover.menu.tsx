@@ -16,6 +16,10 @@ export const CoverMenu = props => (
       <FontAwesomeIcon icon="asterisk" />
       &nbsp;Resume
     </DropdownItem>
+    <DropdownItem tag={Link} to="/cover/company">
+      <FontAwesomeIcon icon="asterisk" />
+      &nbsp;Company
+    </DropdownItem>
     {/* jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here */}
   </NavDropdown>
 );
