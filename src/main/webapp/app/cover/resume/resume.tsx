@@ -5,67 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Translate } from 'react-jhipster';
 import { Row, Col } from 'reactstrap';
 
-import { faInstagram } from '../../../static/icon/brand/faInstagram';
-import { faSass } from '../../../static/icon/brand/faSass';
-import { faTwitter } from '../../../static/icon/brand/faTwitter';
-import { faGithub } from '../../../static/icon/brand/faGithub';
-import { faLinkedin } from '../../../static/icon/brand/faLinkedin';
-
-import { faBaseballBall } from '../../../static/icon/solid/faBaseballBall';
-import { faBicycle } from '../../../static/icon/solid/faBicycle';
-import { faBookReader } from '../../../static/icon/solid/faBookReader';
-import { faCamera } from '../../../static/icon/solid/faCamera';
-import { faCode } from '../../../static/icon/solid/faCode';
-import { faDumbbell } from '../../../static/icon/solid/faDumbbell';
-import { faEnvelope } from '../../../static/icon/solid/faEnvelope';
-import { faGamepad } from '../../../static/icon/solid/faGamepad';
-import { faGraduationCap } from '../../../static/icon/solid/faGraduationCap';
-import { faGrinBeam } from '../../../static/icon/solid/faGrinBeam';
-import { faHandshake } from '../../../static/icon/solid/faHandshake';
-import { faHeadset } from '../../../static/icon/solid/faHeadset';
-import { faHome } from '../../../static/icon/solid/faHome';
-import { faImage } from '../../../static/icon/solid/faImage';
-import { faKeyboard } from '../../../static/icon/solid/faKeyboard';
-import { faLanguage } from '../../../static/icon/solid/faLanguage';
-import { faMusic } from '../../../static/icon/solid/faMusic';
-import { faPalette } from '../../../static/icon/solid/faPalette';
-import { faPhone } from '../../../static/icon/solid/faPhone';
-import { faSwimmer } from '../../../static/icon/solid/faSwimmer';
-import { faTheaterMasks } from '../../../static/icon/solid/faTheaterMasks';
-import { faTicketAlt } from '../../../static/icon/solid/faTicketAlt';
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-
-library.add(
-  faInstagram,
-  faSass,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-  faBaseballBall,
-  faBicycle,
-  faBookReader,
-  faCamera,
-  faCode,
-  faDumbbell,
-  faEnvelope,
-  faGamepad,
-  faGraduationCap,
-  faGrinBeam,
-  faHandshake,
-  faHeadset,
-  faHome,
-  faImage,
-  faKeyboard,
-  faLanguage,
-  faMusic,
-  faPalette,
-  faPhone,
-  faSwimmer,
-  faTheaterMasks,
-  faTicketAlt
-);
-
 export class Resume extends Component {
   render() {
     return (

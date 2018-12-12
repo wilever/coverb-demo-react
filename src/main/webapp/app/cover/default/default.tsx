@@ -5,21 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Translate } from 'react-jhipster';
 import { Row, Col } from 'reactstrap';
 
-import { faInstagram } from '../../../static/icon/brand/faInstagram';
-import { faSass } from '../../../static/icon/brand/faSass';
-import { faTwitter } from '../../../static/icon/brand/faTwitter';
-import { faGithub } from '../../../static/icon/brand/faGithub';
-
-import { faKey } from '../../../static/icon/solid/faKey';
-import { faLanguage } from '../../../static/icon/solid/faLanguage';
-import { faLockOpen } from '../../../static/icon/solid/faLockOpen';
-import { faMagic } from '../../../static/icon/solid/faMagic';
-import { faPalette } from '../../../static/icon/solid/faPalette';
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-
-library.add(faInstagram, faSass, faTwitter, faGithub, faKey, faLanguage, faLockOpen, faMagic, faPalette);
-
 export class Default extends Component {
   render() {
     return (

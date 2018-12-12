@@ -5,23 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Translate } from 'react-jhipster';
 import { Row, Col } from 'reactstrap';
 
-import { faInstagram } from '../../../static/icon/brand/faInstagram';
-import { faSass } from '../../../static/icon/brand/faSass';
-import { faTwitter } from '../../../static/icon/brand/faTwitter';
-import { faGithub } from '../../../static/icon/brand/faGithub';
-import { faLinkedin } from '../../../static/icon/brand/faLinkedin';
-
-import { faBullhorn } from '../../../static/icon/solid/faBullhorn';
-import { faChartLine } from '../../../static/icon/solid/faChartLine';
-import { faMagic } from '../../../static/icon/solid/faMagic';
-import { faCubes } from '../../../static/icon/solid/faCubes';
-import { faCogs } from '../../../static/icon/solid/faCogs';
-import { faServer } from '../../../static/icon/solid/faServer';
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-
-library.add(faInstagram, faSass, faTwitter, faGithub, faLinkedin, faBullhorn, faChartLine, faMagic, faCubes, faCogs, faServer);
-
 export class Company extends Component {
   render() {
     return (
