@@ -1,18 +1,18 @@
 /* style.css */
 
-.bg-blue {
+#resume .bg-blue {
   background: #3e8acc;
 }
 
-.bg-blue .icon {
+#resume .bg-blue .icon {
   margin: 0% 2%;
 }
 
-.border {
+#resume .border {
   border: 1px black dashed;
 }
 
-.profile {
+#resume .profile {
   background: white;
   width: 250px;
   height: 250px;
@@ -20,25 +20,35 @@
   margin: 5% auto;
 }
 
-.icon {
+#resume .icon {
   font-size: 30px;
   margin: 1%;
   color: black;
 }
 
-content {
+#resume content {
   height: 100%;
 }
 
-.principal {
+#resume .principal {
   padding: 0%;
   margin: auto 2%;
 }
 
-footer {
+#resume footer {
   margin: 2% auto;
   background: lightgray;
   padding: 60px 25px;
+}
+
+#resume .logo-img span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-size: 65px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media print {
@@ -59,7 +69,7 @@ footer {
 
 /*Images*/
 
-#logo {
+#logo-resume {
   background: url('/content/images/hipster256.png');
   display: inline-block;
   width: 250px;
@@ -68,16 +78,6 @@ footer {
   border-radius: 50%;
   background-color: #fff;
   margin: 5% auto;
-}
-
-.logo-img span {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  background-size: 65px;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #html5 {
