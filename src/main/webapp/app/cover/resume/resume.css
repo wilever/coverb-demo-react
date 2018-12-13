@@ -35,12 +35,6 @@
   margin: auto 2%;
 }
 
-#resume footer {
-  margin: 2% auto;
-  background: lightgray;
-  padding: 60px 25px;
-}
-
 #resume .logo-img span {
   display: inline-block;
   width: 70px;
