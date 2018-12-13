@@ -74,12 +74,12 @@
   margin: 5% auto;
 }
 
-#html5 {
+#resume #html5 {
   background-image: url('/content/images/logo/svg/html5.svg');
   background-size: 45px;
 }
 
-#css3 {
+#resume #css3 {
   background-image: url('/content/images/logo/svg/css3.svg');
   background-size: 45px;
 }
@@ -140,7 +140,7 @@
   background-image: url('/content/images/logo/icons/cucumber.png');
 }
 
-#jenkins {
+#resume #jenkins {
   background-image: url('/content/images/logo/svg/jenkins.svg');
   background-size: 40px;
 }
