@@ -12,7 +12,7 @@ import { clearAuthentication } from './shared/reducers/authentication';
 import ErrorBoundary from './shared/error/error-boundary';
 import AppComponent from './app';
 import { loadIcons } from './config/icon-loader';
-import './config/coverb-icon-loader';
+// import './config/coverb-icon-loader';
 
 const devTools = process.env.NODE_ENV === 'development' ? <DevTools /> : null;
 

@@ -12,6 +12,8 @@ import { Home, Brand } from './header-components';
 import { AdminMenu, EntitiesMenu, AccountMenu, LocaleMenu } from './menus';
 
 import { Default } from 'app/modules/default/default.item';
+import { Company } from 'app/modules/company/company.item';
+import { Resume } from 'app/modules/resume/resume.item';
 import { CoverMenu } from 'app/cover/cover.menu';
 
 export interface IHeaderProps {
@@ -68,6 +70,9 @@ export default class Header extends React.Component<IHeaderProps, IHeaderState> 
             <Nav id="header-tabs" className="ml-auto" navbar>
               <Home />
               <Default />
+              {/* Default Nav-bar item*/}
+              <Company />
+              <Resume />
               {/* Default Nav-bar item*/}
               <CoverMenu />
               {/* Default Nav-bar menu*/}

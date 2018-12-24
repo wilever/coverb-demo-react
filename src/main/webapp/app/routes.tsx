@@ -16,6 +16,8 @@ import { AUTHORITIES } from 'app/config/constants';
 
 import Cover from 'app/cover';
 import { Default } from 'app/modules/default/default';
+import Company from './modules/company/company';
+import Resume from './modules/resume/resume';
 
 // tslint:disable:space-in-parens
 const Account = Loadable({
@@ -43,6 +45,8 @@ const Routes = () => (
       <PrivateRoute path="/entity" component={Entities} hasAnyAuthorities={[AUTHORITIES.USER]} />
       <ErrorBoundaryRoute path="/cover" component={Cover} />
       <ErrorBoundaryRoute path="/default" component={Default} />
+      <ErrorBoundaryRoute path="/company" component={Company} />
+      <ErrorBoundaryRoute path="/resume" component={Resume} />
       <ErrorBoundaryRoute path="/" component={Home} />
     </Switch>
   </div>

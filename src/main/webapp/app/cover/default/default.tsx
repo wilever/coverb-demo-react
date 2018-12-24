@@ -1,4 +1,5 @@
 import 'app/cover/default/default.css';
+import 'app/cover/default/icon-loader';
 
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

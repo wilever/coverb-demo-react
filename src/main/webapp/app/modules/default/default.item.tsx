@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export const Default = props => (
   <NavItem>
     <NavLink tag={Link} to="/default" className="d-flex align-items-center">
-      <FontAwesomeIcon icon="book" />
+      <FontAwesomeIcon icon="cube" />
       <span>Default</span>
     </NavLink>
   </NavItem>
