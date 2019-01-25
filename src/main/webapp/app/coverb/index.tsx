@@ -6,9 +6,9 @@ import { Switch } from 'react-router-dom';
 // tslint:disable-next-line:no-unused-variable
 import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 
-import { Default } from 'app/cover/default/default';
-import { Resume } from 'app/cover/resume/resume';
-import { Company } from 'app/cover/company/company';
+import Default from 'app/coverb/default/component';
+import Resume from 'app/coverb/resume/component';
+import Company from 'app/coverb/company/component';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (

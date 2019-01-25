@@ -1,4 +1,4 @@
-import './default.css';
+import './style.scss';
 import './icon-loader';
 
 import React, { Component } from 'react';

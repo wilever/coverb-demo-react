@@ -14,10 +14,7 @@ import PrivateRoute from 'app/shared/auth/private-route';
 import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 import { AUTHORITIES } from 'app/config/constants';
 
-import Cover from 'app/cover';
-import { Default } from 'app/modules/default/default';
-import Company from './modules/company/company';
-import Resume from './modules/resume/resume';
+import Coverb from 'app/coverb';
 
 // tslint:disable:space-in-parens
 const Account = Loadable({
@@ -43,10 +40,7 @@ const Routes = () => (
       <PrivateRoute path="/admin" component={Admin} hasAnyAuthorities={[AUTHORITIES.ADMIN]} />
       <PrivateRoute path="/account" component={Account} hasAnyAuthorities={[AUTHORITIES.ADMIN, AUTHORITIES.USER]} />
       <PrivateRoute path="/entity" component={Entities} hasAnyAuthorities={[AUTHORITIES.USER]} />
-      <ErrorBoundaryRoute path="/cover" component={Cover} />
-      <ErrorBoundaryRoute path="/default" component={Default} />
-      <ErrorBoundaryRoute path="/company" component={Company} />
-      <ErrorBoundaryRoute path="/resume" component={Resume} />
+      <ErrorBoundaryRoute path="/coverb" component={Coverb} />
       <ErrorBoundaryRoute path="/" component={Home} />
     </Switch>
   </div>

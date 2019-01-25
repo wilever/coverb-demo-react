@@ -1,5 +1,5 @@
-import 'app/cover/resume/resume.css';
-import 'app/cover/resume/icon-loader';
+import './style.scss';
+import './icon-loader';
 
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -24,9 +24,9 @@ export class Resume extends Component {
                 </h3>
                 <hr />
                 {/* About me*/}
-                <h3>
+                <h4>
                   <Translate contentKey="resume.about-me.title">About me</Translate>
-                </h3>
+                </h4>
                 <hr />
                 <p className="text-justify">
                   <Translate contentKey="resume.about-me.content">about me content</Translate>
