@@ -4,7 +4,7 @@
      <hr/>
 <p align="center">
    <a href="https://coverb-demo-react.herokuapp.com/">
-     <img src="src/main/webapp/static/images/logo/icons/qr-react-demo.png"></a></p>   
+     <img src="src/main/webapp/static/images/logo/icons/qr-react-demo.png" style="height: 300px;"></a></p>
 <hr />
 <p align="center">
      <a href="https://www.jhipster.tech/">
