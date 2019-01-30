@@ -1,3 +1,10 @@
-.footer {
-  height: 50px;
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1% auto;
+  background: lightgray;
+  padding: 1%;
+  .icon {
+    font-size: 30px;
+    margin: 1%;
+  }
 }

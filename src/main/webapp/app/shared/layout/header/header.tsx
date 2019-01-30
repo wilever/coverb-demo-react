@@ -1,6 +1,8 @@
 import './header.scss';
 
 import React from 'react';
+
+import Coverb from 'app/coverb//navbar.menu';
 import { Translate, Storage } from 'react-jhipster';
 import { Navbar, Nav, NavbarToggler, NavbarBrand, Collapse } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -64,10 +66,11 @@ export default class Header extends React.Component<IHeaderProps, IHeaderState> 
           <Collapse isOpen={this.state.menuOpen} navbar>
             <Nav id="header-tabs" className="ml-auto" navbar>
               <Home />
+              <Coverb />
               {isAuthenticated && <EntitiesMenu />}
               {isAuthenticated && isAdmin && <AdminMenu showSwagger={isSwaggerEnabled} showDatabase={!isInProduction} />}
               <LocaleMenu currentLocale={currentLocale} onClick={this.handleLocaleChange} />
-              <AccountMenu isAuthenticated={isAuthenticated} />
+              {/*<AccountMenu isAuthenticated={isAuthenticated} />*/}
             </Nav>
           </Collapse>
         </Navbar>
