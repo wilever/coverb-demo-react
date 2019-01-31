@@ -1,20 +1,20 @@
 {
-    "name": "coverb-demo-react",
-    "scripts": {
-    },
-    "env": {
-    },
-    "formation": {
-      "web": {
-        "quantity": 1
-      }
-    },
-    "addons": [
-      "heroku-postgresql"
-    ],
-    "buildpacks": [
-      {
-        "url": "heroku/java"
-      }
-    ]
-  }
+  "name": "coverb-demo-react",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
